@@ -1,0 +1,30 @@
+[4.008s] Invoking command in '/home/ubuntu/ros2_2dvision/build/test_robot_controller': PYTHONPATH=/home/ubuntu/ros2_2dvision/build/test_robot_controller/prefix_override:/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_2dvision/build/test_robot_controller/build
+[5.753s] running develop
+[7.159s] Invoked command in '/home/ubuntu/ros2_2dvision/build/test_robot_controller' returned '0': PYTHONPATH=/home/ubuntu/ros2_2dvision/build/test_robot_controller/prefix_override:/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_2dvision/build/test_robot_controller/build
+[7.167s] Invoking command in '/home/ubuntu/ros2_2dvision/src/test_robot_controller': PYTHONPATH=/home/ubuntu/ros2_2dvision/build/test_robot_controller/prefix_override:/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_robot_controller build --build-base /home/ubuntu/ros2_2dvision/build/test_robot_controller/build install --record /home/ubuntu/ros2_2dvision/build/test_robot_controller/install.log --single-version-externally-managed
+[8.768s] running egg_info
+[8.773s] writing ../../build/test_robot_controller/test_robot_controller.egg-info/PKG-INFO
+[8.782s] writing dependency_links to ../../build/test_robot_controller/test_robot_controller.egg-info/dependency_links.txt
+[8.782s] writing entry points to ../../build/test_robot_controller/test_robot_controller.egg-info/entry_points.txt
+[8.783s] writing requirements to ../../build/test_robot_controller/test_robot_controller.egg-info/requires.txt
+[8.784s] writing top-level names to ../../build/test_robot_controller/test_robot_controller.egg-info/top_level.txt
+[8.788s] reading manifest file '../../build/test_robot_controller/test_robot_controller.egg-info/SOURCES.txt'
+[8.792s] writing manifest file '../../build/test_robot_controller/test_robot_controller.egg-info/SOURCES.txt'
+[8.796s] running build
+[8.797s] running build_py
+[8.798s] copying test_robot_controller/test_cam_loop.py -> /home/ubuntu/ros2_2dvision/build/test_robot_controller/build/lib/test_robot_controller
+[8.799s] running install
+[8.800s] running install_lib
+[8.804s] copying /home/ubuntu/ros2_2dvision/build/test_robot_controller/build/lib/test_robot_controller/test_cam_loop.py -> /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller
+[8.809s] byte-compiling /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller/test_cam_loop.py to test_cam_loop.cpython-310.pyc
+[8.815s] running install_data
+[8.818s] running install_egg_info
+[8.826s] removing '/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[8.829s] Copying ../../build/test_robot_controller/test_robot_controller.egg-info to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller-0.0.0-py3.10.egg-info
+[8.839s] running install_scripts
+[8.955s] Installing cam_gs1 script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+[8.957s] Installing cam_loop script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+[8.962s] Installing cam_merge script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+[8.964s] Installing cam_obj_detect script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+[8.973s] writing list of installed files to '/home/ubuntu/ros2_2dvision/build/test_robot_controller/install.log'
+[9.183s] Invoked command in '/home/ubuntu/ros2_2dvision/src/test_robot_controller' returned '0': PYTHONPATH=/home/ubuntu/ros2_2dvision/build/test_robot_controller/prefix_override:/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_robot_controller build --build-base /home/ubuntu/ros2_2dvision/build/test_robot_controller/build install --record /home/ubuntu/ros2_2dvision/build/test_robot_controller/install.log --single-version-externally-managed

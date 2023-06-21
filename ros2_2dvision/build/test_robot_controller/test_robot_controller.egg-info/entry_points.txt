@@ -1,0 +1,6 @@
+[console_scripts]
+cam_gs1 = test_robot_controller.test_cam_GS1:main
+cam_loop = test_robot_controller.test_cam_loop:main
+cam_merge = test_robot_controller.test_cam_merge:main
+cam_obj_detect = test_robot_controller.test_cam_detect:main
+

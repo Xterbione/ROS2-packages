@@ -1,0 +1,20 @@
+[3.630s] Invoking command in '/home/ubuntu/ros2_2dvision/build/test_robot_controller': PYTHONPATH=/home/ubuntu/ros2_2dvision/build/test_robot_controller/prefix_override:/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_2dvision/build/test_robot_controller/build --no-deps install_data
+[5.087s] running develop
+[6.028s] running egg_info
+[6.031s] writing test_robot_controller.egg-info/PKG-INFO
+[6.031s] writing dependency_links to test_robot_controller.egg-info/dependency_links.txt
+[6.033s] writing entry points to test_robot_controller.egg-info/entry_points.txt
+[6.033s] writing requirements to test_robot_controller.egg-info/requires.txt
+[6.034s] writing top-level names to test_robot_controller.egg-info/top_level.txt
+[6.041s] reading manifest file 'test_robot_controller.egg-info/SOURCES.txt'
+[6.045s] writing manifest file 'test_robot_controller.egg-info/SOURCES.txt'
+[6.052s] running build_ext
+[6.053s] Creating /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test-robot-controller.egg-link (link to .)
+[6.056s] Installing cam_gs1 script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+[6.059s] Installing cam_loop script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+[6.059s] Installing cam_obj_detect script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+[6.060s] Installing draw_circle script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+[6.066s] 
+[6.068s] Installed /home/ubuntu/ros2_2dvision/build/test_robot_controller
+[6.070s] running install_data
+[6.241s] Invoked command in '/home/ubuntu/ros2_2dvision/build/test_robot_controller' returned '0': PYTHONPATH=/home/ubuntu/ros2_2dvision/build/test_robot_controller/prefix_override:/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_2dvision/build/test_robot_controller/build --no-deps install_data

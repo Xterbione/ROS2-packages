@@ -1,0 +1,36 @@
+running develop
+Removing /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test-robot-controller.egg-link (link to .)
+running egg_info
+writing ../../build/test_robot_controller/test_robot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_robot_controller/test_robot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/test_robot_controller/test_robot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/test_robot_controller/test_robot_controller.egg-info/requires.txt
+writing top-level names to ../../build/test_robot_controller/test_robot_controller.egg-info/top_level.txt
+reading manifest file '../../build/test_robot_controller/test_robot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_robot_controller/test_robot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying test_robot_controller/test_cam_loop.py -> /home/ubuntu/ros2_2dvision/build/test_robot_controller/build/lib/test_robot_controller
+copying test_robot_controller/test_cam_detect.py -> /home/ubuntu/ros2_2dvision/build/test_robot_controller/build/lib/test_robot_controller
+running install
+running install_lib
+creating /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller
+copying /home/ubuntu/ros2_2dvision/build/test_robot_controller/build/lib/test_robot_controller/test_cam_loop.py -> /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller
+copying /home/ubuntu/ros2_2dvision/build/test_robot_controller/build/lib/test_robot_controller/__init__.py -> /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller
+copying /home/ubuntu/ros2_2dvision/build/test_robot_controller/build/lib/test_robot_controller/draw_circle.py -> /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller
+copying /home/ubuntu/ros2_2dvision/build/test_robot_controller/build/lib/test_robot_controller/test_cam_detect.py -> /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller
+copying /home/ubuntu/ros2_2dvision/build/test_robot_controller/build/lib/test_robot_controller/test_cam_GS1.py -> /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller
+byte-compiling /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller/test_cam_loop.py to test_cam_loop.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller/test_cam_detect.py to test_cam_detect.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller/test_cam_GS1.py to test_cam_GS1.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/test_robot_controller/test_robot_controller.egg-info to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cam_gs1 script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+Installing cam_loop script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+Installing cam_obj_detect script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+Installing draw_circle script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+writing list of installed files to '/home/ubuntu/ros2_2dvision/build/test_robot_controller/install.log'

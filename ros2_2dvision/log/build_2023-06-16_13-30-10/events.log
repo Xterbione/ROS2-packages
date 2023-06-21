@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.004321] (test_robot_controller) JobQueued: {'identifier': 'test_robot_controller', 'dependencies': OrderedDict()}
+[0.004665] (test_robot_controller) JobStarted: {'identifier': 'test_robot_controller'}
+[0.092381] (-) TimerEvent: {}
+[0.193994] (-) TimerEvent: {}
+[0.294824] (-) TimerEvent: {}
+[0.395642] (-) TimerEvent: {}
+[0.497045] (-) TimerEvent: {}
+[0.598471] (-) TimerEvent: {}
+[0.700150] (-) TimerEvent: {}
+[0.801859] (-) TimerEvent: {}
+[0.906053] (-) TimerEvent: {}
+[1.007405] (-) TimerEvent: {}
+[1.108265] (-) TimerEvent: {}
+[1.209064] (-) TimerEvent: {}
+[1.309811] (-) TimerEvent: {}
+[1.410628] (-) TimerEvent: {}
+[1.511407] (-) TimerEvent: {}
+[1.612324] (-) TimerEvent: {}
+[1.713163] (-) TimerEvent: {}
+[1.813897] (-) TimerEvent: {}
+[1.914950] (-) TimerEvent: {}
+[2.016361] (-) TimerEvent: {}
+[2.117897] (-) TimerEvent: {}
+[2.218692] (-) TimerEvent: {}
+[2.319840] (-) TimerEvent: {}
+[2.421123] (-) TimerEvent: {}
+[2.522396] (-) TimerEvent: {}
+[2.623621] (-) TimerEvent: {}
+[2.724436] (-) TimerEvent: {}
+[2.825807] (-) TimerEvent: {}
+[2.927328] (-) TimerEvent: {}
+[3.028661] (-) TimerEvent: {}
+[3.130169] (-) TimerEvent: {}
+[3.231833] (-) TimerEvent: {}
+[3.333382] (-) TimerEvent: {}
+[3.434682] (-) TimerEvent: {}
+[3.535722] (-) TimerEvent: {}
+[3.636630] (-) TimerEvent: {}
+[3.737382] (-) TimerEvent: {}
+[3.838258] (-) TimerEvent: {}
+[3.939034] (-) TimerEvent: {}
+[4.039783] (-) TimerEvent: {}
+[4.140564] (-) TimerEvent: {}
+[4.242156] (-) TimerEvent: {}
+[4.334798] (test_robot_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/ubuntu/ros2_2dvision/build/test_robot_controller/build'], 'cwd': '/home/ubuntu/ros2_2dvision/build/test_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '141.252.29.68 56296 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/topics_services/lib:/home/ubuntu/ros2_ws/install/serial/lib:/home/ubuntu/ros2_realsense/install/realsense2_camera/lib:/home/ubuntu/ros2_realsense/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_realsense/install:/home/ubuntu/ros2_2dvision/install:/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/robotica_bringup:/home/ubuntu/ros2_ws/install/ros_control:/home/ubuntu/ros2_ws/install/topics_services:/home/ubuntu/ros2_ws/install/text_to_speech_listener:/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/music_pase_detector:/home/ubuntu/ros2_ws/install/mpu6050driver:/home/ubuntu/ros2_ws/install/bryans_loadcell:/home/ubuntu/ros2_realsense/install/realsense2_description:/home/ubuntu/ros2_realsense/install/realsense2_camera:/home/ubuntu/ros2_realsense/install/realsense2_camera_msgs:/home/ubuntu/ros2_realsense/install/my_cpp_pkg:/home/ubuntu/ros2_2dvision/install/test_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_2dvision/build/test_robot_controller', 'SSH_CONNECTION': '141.252.29.68 56296 141.252.29.21 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_2dvision/build/test_robot_controller/prefix_override:/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/ros_control:/home/ubuntu/ros2_ws/install/ros_control/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/topics_services/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/text_to_speech_listener:/home/ubuntu/ros2_ws/install/text_to_speech_listener/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/music_pase_detector:/home/ubuntu/ros2_ws/install/music_pase_detector/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/bryans_loadcell:/home/ubuntu/ros2_ws/install/bryans_loadcell/lib/python3.10/site-packages:/home/ubuntu/ros2_realsense/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/robotica_bringup:/home/ubuntu/ros2_ws/install/topics_services:/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/mpu6050driver:/home/ubuntu/ros2_realsense/install/realsense2_description:/home/ubuntu/ros2_realsense/install/realsense2_camera:/home/ubuntu/ros2_realsense/install/realsense2_camera_msgs:/home/ubuntu/ros2_realsense/install/my_cpp_pkg'}, 'shell': False}
+[4.349273] (-) TimerEvent: {}
+[4.450895] (-) TimerEvent: {}
+[4.553313] (-) TimerEvent: {}
+[4.654737] (-) TimerEvent: {}
+[4.756382] (-) TimerEvent: {}
+[4.857963] (-) TimerEvent: {}
+[4.959678] (-) TimerEvent: {}
+[5.060438] (-) TimerEvent: {}
+[5.161245] (-) TimerEvent: {}
+[5.262076] (-) TimerEvent: {}
+[5.362798] (-) TimerEvent: {}
+[5.463556] (-) TimerEvent: {}
+[5.564258] (-) TimerEvent: {}
+[5.665475] (-) TimerEvent: {}
+[5.766307] (-) TimerEvent: {}
+[5.867104] (-) TimerEvent: {}
+[5.968312] (-) TimerEvent: {}
+[6.069169] (-) TimerEvent: {}
+[6.170142] (-) TimerEvent: {}
+[6.220813] (test_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[6.270323] (-) TimerEvent: {}
+[6.371697] (-) TimerEvent: {}
+[6.473214] (-) TimerEvent: {}
+[6.574511] (-) TimerEvent: {}
+[6.675830] (-) TimerEvent: {}
+[6.777544] (-) TimerEvent: {}
+[6.880356] (-) TimerEvent: {}
+[6.981566] (-) TimerEvent: {}
+[7.082928] (-) TimerEvent: {}
+[7.184347] (-) TimerEvent: {}
+[7.285873] (-) TimerEvent: {}
+[7.387359] (-) TimerEvent: {}
+[7.488611] (-) TimerEvent: {}
+[7.589515] (-) TimerEvent: {}
+[7.691009] (-) TimerEvent: {}
+[7.737994] (test_robot_controller) CommandEnded: {'returncode': 0}
+[7.748914] (test_robot_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/test_robot_controller', 'build', '--build-base', '/home/ubuntu/ros2_2dvision/build/test_robot_controller/build', 'install', '--record', '/home/ubuntu/ros2_2dvision/build/test_robot_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_2dvision/src/test_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '141.252.29.68 56296 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/topics_services/lib:/home/ubuntu/ros2_ws/install/serial/lib:/home/ubuntu/ros2_realsense/install/realsense2_camera/lib:/home/ubuntu/ros2_realsense/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_realsense/install:/home/ubuntu/ros2_2dvision/install:/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/robotica_bringup:/home/ubuntu/ros2_ws/install/ros_control:/home/ubuntu/ros2_ws/install/topics_services:/home/ubuntu/ros2_ws/install/text_to_speech_listener:/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/music_pase_detector:/home/ubuntu/ros2_ws/install/mpu6050driver:/home/ubuntu/ros2_ws/install/bryans_loadcell:/home/ubuntu/ros2_realsense/install/realsense2_description:/home/ubuntu/ros2_realsense/install/realsense2_camera:/home/ubuntu/ros2_realsense/install/realsense2_camera_msgs:/home/ubuntu/ros2_realsense/install/my_cpp_pkg:/home/ubuntu/ros2_2dvision/install/test_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_2dvision/build/test_robot_controller', 'SSH_CONNECTION': '141.252.29.68 56296 141.252.29.21 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_2dvision/build/test_robot_controller/prefix_override:/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/ros_control:/home/ubuntu/ros2_ws/install/ros_control/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/topics_services/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/text_to_speech_listener:/home/ubuntu/ros2_ws/install/text_to_speech_listener/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/music_pase_detector:/home/ubuntu/ros2_ws/install/music_pase_detector/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/bryans_loadcell:/home/ubuntu/ros2_ws/install/bryans_loadcell/lib/python3.10/site-packages:/home/ubuntu/ros2_realsense/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/robotica_bringup:/home/ubuntu/ros2_ws/install/topics_services:/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/mpu6050driver:/home/ubuntu/ros2_realsense/install/realsense2_description:/home/ubuntu/ros2_realsense/install/realsense2_camera:/home/ubuntu/ros2_realsense/install/realsense2_camera_msgs:/home/ubuntu/ros2_realsense/install/my_cpp_pkg'}, 'shell': False}
+[7.791186] (-) TimerEvent: {}
+[7.893258] (-) TimerEvent: {}
+[8.015253] (-) TimerEvent: {}
+[8.116655] (-) TimerEvent: {}
+[8.218088] (-) TimerEvent: {}
+[8.320241] (-) TimerEvent: {}
+[8.425383] (-) TimerEvent: {}
+[8.528181] (-) TimerEvent: {}
+[8.630548] (-) TimerEvent: {}
+[8.733954] (-) TimerEvent: {}
+[8.835968] (-) TimerEvent: {}
+[8.938068] (-) TimerEvent: {}
+[9.041594] (-) TimerEvent: {}
+[9.143555] (-) TimerEvent: {}
+[9.245620] (-) TimerEvent: {}
+[9.346956] (-) TimerEvent: {}
+[9.448657] (-) TimerEvent: {}
+[9.550419] (-) TimerEvent: {}
+[9.648211] (test_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[9.651774] (-) TimerEvent: {}
+[9.655038] (test_robot_controller) StdoutLine: {'line': b'writing ../../build/test_robot_controller/test_robot_controller.egg-info/PKG-INFO\n'}
+[9.655688] (test_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/test_robot_controller/test_robot_controller.egg-info/dependency_links.txt\n'}
+[9.658860] (test_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/test_robot_controller/test_robot_controller.egg-info/entry_points.txt\n'}
+[9.660486] (test_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/test_robot_controller/test_robot_controller.egg-info/requires.txt\n'}
+[9.662215] (test_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/test_robot_controller/test_robot_controller.egg-info/top_level.txt\n'}
+[9.672117] (test_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/test_robot_controller/test_robot_controller.egg-info/SOURCES.txt'\n"}
+[9.677297] (test_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/test_robot_controller/test_robot_controller.egg-info/SOURCES.txt'\n"}
+[9.678793] (test_robot_controller) StdoutLine: {'line': b'running build\n'}
+[9.679386] (test_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[9.681709] (test_robot_controller) StdoutLine: {'line': b'copying test_robot_controller/test_cam_detect.py -> /home/ubuntu/ros2_2dvision/build/test_robot_controller/build/lib/test_robot_controller\n'}
+[9.684392] (test_robot_controller) StdoutLine: {'line': b'running install\n'}
+[9.686468] (test_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[9.692020] (test_robot_controller) StdoutLine: {'line': b'copying /home/ubuntu/ros2_2dvision/build/test_robot_controller/build/lib/test_robot_controller/test_cam_detect.py -> /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller\n'}
+[9.697070] (test_robot_controller) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller/test_cam_detect.py to test_cam_detect.cpython-310.pyc\n'}
+[9.702699] (test_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[9.706389] (test_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.714176] (test_robot_controller) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.717043] (test_robot_controller) StdoutLine: {'line': b'Copying ../../build/test_robot_controller/test_robot_controller.egg-info to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test_robot_controller-0.0.0-py3.10.egg-info\n'}
+[9.730829] (test_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[9.752026] (-) TimerEvent: {}
+[9.846840] (test_robot_controller) StdoutLine: {'line': b'Installing cam_gs1 script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller\n'}
+[9.848960] (test_robot_controller) StdoutLine: {'line': b'Installing cam_loop script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller\n'}
+[9.851169] (test_robot_controller) StdoutLine: {'line': b'Installing cam_merge script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller\n'}
+[9.852167] (-) TimerEvent: {}
+[9.853903] (test_robot_controller) StdoutLine: {'line': b'Installing cam_obj_detect script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller\n'}
+[9.856848] (test_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_2dvision/build/test_robot_controller/install.log'\n"}
+[9.952414] (-) TimerEvent: {}
+[10.045794] (test_robot_controller) CommandEnded: {'returncode': 0}
+[10.053122] (-) TimerEvent: {}
+[10.154258] (-) TimerEvent: {}
+[10.174309] (test_robot_controller) JobEnded: {'identifier': 'test_robot_controller', 'rc': 0}
+[10.178007] (-) EventReactorShutdown: {}

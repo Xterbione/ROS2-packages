@@ -1,0 +1,27 @@
+[3.286s] Invoking command in '/home/ubuntu/ros2_2dvision/build/test_robot_controller': PYTHONPATH=/home/ubuntu/ros2_2dvision/build/test_robot_controller/prefix_override:/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_2dvision/build/test_robot_controller/build --no-deps install_data
+[4.628s] running develop
+[5.491s] running egg_info
+[5.491s] creating test_robot_controller.egg-info
+[5.492s] writing test_robot_controller.egg-info/PKG-INFO
+[5.493s] writing dependency_links to test_robot_controller.egg-info/dependency_links.txt
+[5.494s] writing entry points to test_robot_controller.egg-info/entry_points.txt
+[5.495s] writing requirements to test_robot_controller.egg-info/requires.txt
+[5.495s] writing top-level names to test_robot_controller.egg-info/top_level.txt
+[5.496s] writing manifest file 'test_robot_controller.egg-info/SOURCES.txt'
+[5.504s] reading manifest file 'test_robot_controller.egg-info/SOURCES.txt'
+[5.507s] writing manifest file 'test_robot_controller.egg-info/SOURCES.txt'
+[5.514s] running build_ext
+[5.515s] Creating /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test-robot-controller.egg-link (link to .)
+[5.518s] Installing cam_gs1 script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+[5.522s] Installing cam_loop script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+[5.523s] Installing cam_obj_detect script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+[5.524s] Installing draw_circle script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+[5.524s] 
+[5.526s] Installed /home/ubuntu/ros2_2dvision/build/test_robot_controller
+[5.527s] running install_data
+[5.528s] creating /home/ubuntu/ros2_2dvision/install/test_robot_controller/share/ament_index
+[5.530s] creating /home/ubuntu/ros2_2dvision/install/test_robot_controller/share/ament_index/resource_index
+[5.531s] creating /home/ubuntu/ros2_2dvision/install/test_robot_controller/share/ament_index/resource_index/packages
+[5.533s] copying resource/test_robot_controller -> /home/ubuntu/ros2_2dvision/install/test_robot_controller/share/ament_index/resource_index/packages
+[5.534s] copying package.xml -> /home/ubuntu/ros2_2dvision/install/test_robot_controller/share/test_robot_controller
+[5.691s] Invoked command in '/home/ubuntu/ros2_2dvision/build/test_robot_controller' returned '0': PYTHONPATH=/home/ubuntu/ros2_2dvision/build/test_robot_controller/prefix_override:/home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_2dvision/build/test_robot_controller/build --no-deps install_data

@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing test_robot_controller.egg-info/PKG-INFO
+writing dependency_links to test_robot_controller.egg-info/dependency_links.txt
+writing entry points to test_robot_controller.egg-info/entry_points.txt
+writing requirements to test_robot_controller.egg-info/requires.txt
+writing top-level names to test_robot_controller.egg-info/top_level.txt
+reading manifest file 'test_robot_controller.egg-info/SOURCES.txt'
+writing manifest file 'test_robot_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/python3.10/site-packages/test-robot-controller.egg-link (link to .)
+Installing cam_gs1 script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+Installing cam_loop script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+Installing cam_merge script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+Installing cam_obj_detect script to /home/ubuntu/ros2_2dvision/install/test_robot_controller/lib/test_robot_controller
+
+Installed /home/ubuntu/ros2_2dvision/build/test_robot_controller
+running install_data
